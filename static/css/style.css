@@ -11,3 +11,13 @@ a.header-link {
   bottom: 0;
   width: 100%;
 }
+
+code {
+  background-color: #e0e1e2;
+  color: #1c1b1d;
+  padding: 0 0.25rem;
+}
+
+li {
+  padding: 0.5rem;
+}

@@ -12,15 +12,10 @@
           </a>
         </div>
         <p>
-          {{ .Summary }}
+          {{ .Summary | safeHTML | truncate 50 }}
           <p>
             <a href="{{ .RelPermalink }}">Read More…</a>
           </p>
-          {{ if .Truncated }}
-          <div class="read-more-link">
-            <a href="{{ .RelPermalink }}">Read More…</a>
-          </div>
-          {{ end }}
         </p>
       </div>
     </div>
