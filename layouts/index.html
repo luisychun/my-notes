@@ -4,9 +4,12 @@
   <div class="ui grid container">
     {{ range .Site.RegularPages }}
     <div class="sixteen wide column">
+
       <div class="ui padded segment">
         <div class="ui header">
-          {{ .Title }}
+          <a href="{{ .RelPermalink }}" class="header-link">
+            {{ .Title }}
+          </a>
         </div>
         <p>
           {{ .Summary }}

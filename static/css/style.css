@@ -2,6 +2,10 @@
   margin-top: 2rem !important;
 }
 
+a.header-link {
+  color: #1b1c1d !important;
+}
+
 .footer {
   position: fixed !important;
   bottom: 0;

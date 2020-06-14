@@ -1,6 +1,22 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<div class="list-container">
+  <div class="ui grid container">
+    <div class="sixteen wide column">
+      <div class="ui padded segment">
+        <div class="ui header">
+          <h1>{{ .Title }}</h1>
+          <button class="ui black button" onclick="goBack()">
+            Back
+          </button>
+        </div>
+        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+        Created On: <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+        <p>{{ .Content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 {{ end }}

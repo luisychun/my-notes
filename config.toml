@@ -4,3 +4,6 @@ title = "Luis yChun | Personal Knowledge Base and Notes"
 
 [permalinks]
   posts = "/:filename/"
+
+[params]
+  dateFormat = "Jan 2, 2006"
