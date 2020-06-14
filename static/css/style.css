@@ -1,3 +1,7 @@
+.list-container {
+  margin-top: 2rem !important;
+}
+
 .footer {
   position: fixed !important;
   bottom: 0;

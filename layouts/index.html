@@ -1,9 +1,29 @@
 {{ define "main" }}
 
-{{ range .Site.RegularPages }}
-<p>
-  <a href="{{ .RelPermalink }}"> {{ .Title }}</a>
-</p>
-{{ end }}
+<div class="list-container">
+  <div class="ui grid container">
+    {{ range .Site.RegularPages }}
+    <div class="sixteen wide column">
+      <div class="ui padded segment">
+        <div class="ui header">
+          {{ .Title }}
+        </div>
+        <p>
+          {{ .Summary }}
+          <p>
+            <a href="{{ .RelPermalink }}">Read More…</a>
+          </p>
+          {{ if .Truncated }}
+          <div class="read-more-link">
+            <a href="{{ .RelPermalink }}">Read More…</a>
+          </div>
+          {{ end }}
+        </p>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</div>
 
 {{ end }}
