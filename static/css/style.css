@@ -22,7 +22,8 @@ p.show-in-mobile {
   display: none;
 }
 
-.highlight {
+.highlight,
+pre {
   margin: 1rem 0;
 }
 
