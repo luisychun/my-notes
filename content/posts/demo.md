@@ -6,3 +6,10 @@ draft: true
 ---
 
 ### Demo Post
+[Simple Shortcode to Insert Raw HTML in Hugo](https://anaulin.org/blog/hugo-raw-html-shortcode/)
+
+{{< rawhtml >}}
+  <p class="speshal-fancy-custom">
+    This is <strong>raw HTML</strong>, inside Markdown.
+  </p>
+{{< /rawhtml >}}

@@ -18,6 +18,14 @@ a.header-link {
   color: #1b1c1d !important;
 }
 
+p.show-in-mobile {
+  display: none;
+}
+
+.highlight {
+  margin: 1rem 0;
+}
+
 .footer {
   position: fixed !important;
   bottom: 0;
@@ -27,6 +35,16 @@ a.header-link {
 
 li {
   padding: 0.5rem;
+}
+
+@media (max-width: 993px) {
+  pre {
+    display: none;
+  }
+
+  p.show-in-mobile {
+    display: block;
+  }
 }
 
 @media (max-width: 768px) {

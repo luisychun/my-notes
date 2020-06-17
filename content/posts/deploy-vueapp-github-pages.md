@@ -12,6 +12,12 @@ Create **vue.config.js** in your project root directory and add **publicPath: �
 
 Create a scripts folder and add **deploy.js**, add following scripts
 
+{{< rawhtml >}}
+  <p class="show-in-mobile">
+    <a href="https://gist.github.com/luisychun/b20b834b9ba4189b8be646f9b992ee40" target=_blank>Gist</a>
+  </p>
+{{< /rawhtml >}}
+
 ```javascript
   const execa = require(“execa”);
   const fs = require(“fs”);
@@ -37,8 +43,6 @@ Create a scripts folder and add **deploy.js**, add following scripts
     }
   })();
 ```
-
-await execa(“git”, [“push”, “origin”, “HEAD:gh-pages”, “—force”]); replace “origin” with your repos remote name
 
 Open **package.json** and add **“execa”: “latest”** in **devDependecies**
 
