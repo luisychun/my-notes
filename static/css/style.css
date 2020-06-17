@@ -1,10 +1,17 @@
-.main-container {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+}
+
+.root-container {
   margin-bottom: 90px;
   padding-bottom: 90px;
 }
 
-.list-container {
-  margin-top: 2rem !important;
+.content-container {
+  margin-top: 1.5rem !important;
 }
 
 a.header-link {
@@ -18,12 +25,16 @@ a.header-link {
   height: 90px;
 }
 
-code {
-  background-color: #e0e1e2;
-  color: #1c1b1d;
-  padding: 0 0.25rem;
+li {
+  padding: 0.5rem;
 }
 
-li {
-  padding: 0.25rem;
+@media (max-width: 768px) {
+  * {
+    font-size: 1rem;
+  }
+
+  li {
+    padding: 0.25rem;
+  }
 }
