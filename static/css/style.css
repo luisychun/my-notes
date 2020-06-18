@@ -34,8 +34,12 @@ pre {
   height: 90px;
 }
 
+ul {
+  list-style-position: inside;
+}
+
 li {
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 @media (max-width: 993px) {
