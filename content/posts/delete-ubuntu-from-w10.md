@@ -7,7 +7,9 @@ draft: false
 
 ## Delete Ubuntu partition in Windows 10
 [How to Uninstall Ubuntu from Windows Dual Boot Safely](https://itsfoss.com/uninstall-ubuntu-linux-windows-dual-boot/)
+
 [How to delete GRUB files from a Boot EFI partition in Windows 10](https://linuxbsdos.com/2015/09/05/how-to-delete-grub-files-from-a-boot-efi-partition-in-windows-10/)
+
 [How to Uninstall a Linux Dual-Boot System From Your Computer](https://www.howtogeek.com/141818/how-to-uninstall-a-linux-dual-boot-system-from-your-computer/)
 
 - Open Windows disk management tool
