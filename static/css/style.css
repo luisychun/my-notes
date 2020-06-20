@@ -43,7 +43,9 @@ li {
 }
 
 @media (max-width: 993px) {
-  pre {
+
+  .highlight,
+    {
     font-size: 0.7rem;
   }
 
