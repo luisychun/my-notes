@@ -44,8 +44,7 @@ li {
 
 @media (max-width: 993px) {
 
-  .highlight,
-    {
+  .highlight {
     font-size: 0.7rem;
   }
 
