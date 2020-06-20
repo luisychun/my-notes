@@ -5,8 +5,10 @@ tags: []
 draft: false
 ---
 
-## Deploy Vue App in GitHub Pages
+### Reference
 [Deploy to Github Pages like a pro with Github Actions](https://dev.to/rolanddoda/deploy-to-github-pages-like-a-pro-with-github-actions-4hdg)
+
+### Deploy Vue App in GitHub Pages
 
 Create **vue.config.js** in your project root directory and add **publicPath: ‘/your-repos-name**
 
@@ -18,6 +20,7 @@ Create a scripts folder and add **deploy.js**, add following scripts
   </p>
 {{< /rawhtml >}}
 
+{{< rawhtml >}}<div class="hide-in-mobile">{{< /rawhtml >}}
 ```javascript
   const execa = require(“execa”);
   const fs = require(“fs”);
@@ -43,10 +46,11 @@ Create a scripts folder and add **deploy.js**, add following scripts
     }
   })();
 ```
+{{< rawhtml >}}</div>{{< /rawhtml >}}
 
 Open **package.json** and add **“execa”: “latest”** in **devDependecies**
 
-Open **package.json** and append **“gh-pages-deploy”: “node scripts/deploy.js”** in **scripts**, run **npm install** to install added dependencies
+Append **“gh-pages-deploy”: “node scripts/deploy.js”** in **scripts** section, run **npm install** to install added dependencies
 
 Run **npm run gh-pages-deploy** to start the deployment
 

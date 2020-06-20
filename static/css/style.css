@@ -43,7 +43,7 @@ li {
 }
 
 @media (max-width: 993px) {
-  pre {
+  div.hide-in-mobile {
     display: none;
   }
 
