@@ -44,8 +44,9 @@ li {
 
 @media (max-width: 993px) {
 
-  .highlight {
-    font-size: 0.7rem;
+  code,
+  code>* {
+    font-size: 0.75rem;
   }
 
   div.hide-in-mobile {
