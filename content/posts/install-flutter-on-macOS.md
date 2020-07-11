@@ -16,15 +16,6 @@ draft: false
 - Replace **[PATH_TO_FLUTTER_SDK_DIRECTORY]** to be the path where you installed the flutter sdk
 - Close the current terminal window and open a new one, **echo $PATH** to verify that the flutter/bin directory is now in your PATH
 - To check if there are any dependencies you need to install to complete the setup, **flutter doctor**
-- Create and run a simple Flutter app
-
-```shell
-flutter create my_app
-cd my_app
-flutter run
-```
-
-**Before running the Flutter app, make sure the simulator is already up**
 
 ### Environment/Platform setup
 
@@ -42,3 +33,25 @@ flutter run
 - Make sure the Android Virtual Device is installed
 - Install the flutter and dart plugin that provided by IDE
 - If facing any SDK licenses are not accepted, **flutter doctor --android-licenses**
+
+### Create and run a simple Flutter app
+
+```shell
+flutter create my_app
+cd my_app
+flutter run
+```
+
+**Before running the Flutter app, make sure the simulator is already up**
+
+**iOS**
+- Open terminal and type **open -a Simulator**
+
+**Android**
+- Open Android Studio
+- Navigate to top menu bar, select Tools > AVD Manager
+- Select a virtual device and click the **Play** button as diagram below
+
+{{< rawhtml >}}
+  <img class="ui fluid image" src="/img/AVD.png">
+{{< /rawhtml >}}

@@ -22,6 +22,10 @@ p.show-in-mobile {
   display: none;
 }
 
+p {
+  margin-top: 1em;
+}
+
 .highlight,
 pre {
   margin: 1rem 0;
