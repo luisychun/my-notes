@@ -7,13 +7,18 @@
         <div class="ui header">
           <h1>{{ .Title }}</h1>
         </div>
-        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-        Created On: <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+        <div>
+          {{ partial "date-and-tags.html" . }}
+        </div>
         <p>{{ .Content }}</p>
         <button class="ui black button" onclick="goBack()">
           Back
         </button>
+        <a href="/">
+          <button class="ui black button">
+            Home Page
+          </button>
+        </a>
       </div>
     </div>
   </div>

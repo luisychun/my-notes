@@ -1,7 +1,7 @@
 ---
 title: "Install Flutter on macOS"
 date: 2020-07-05T18:28:23+08:00
-tags: []
+tags: ["Installation", "Flutter"]
 draft: false
 ---
 
