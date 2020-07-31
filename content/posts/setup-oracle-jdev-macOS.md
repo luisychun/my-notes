@@ -17,7 +17,9 @@ draft: false
   <img class="ui fluid image" src="/img/oracle_jdk8.png" style="width: auto">
 {{< /rawhtml >}}
 
-- Set JAVA_HOME: export JAVA_HOME=/Library/Java/Home/JavaVirtualMachines/<java_version>/Contents/Home
+- export JAVA_HOME=/path/java_version/Contents/Home
+- Replace path with the Java path mentioned above
+- Replace the java_version with your installed Oracle JDK
 
 ### Install JDeveloper
 
