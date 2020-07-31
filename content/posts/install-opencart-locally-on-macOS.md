@@ -1,7 +1,7 @@
 ---
 title: "Install Opencart locally on macOS"
 date: 2020-06-14T17:42:43+08:00
-tags: ["Installation", "Opencart"]
+tags: ["Guide"]
 draft: false
 ---
 

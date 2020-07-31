@@ -1,7 +1,7 @@
 ---
 title: "Deploy Vue App in Github Pages"
 date: 2020-06-17T20:38:01+08:00
-tags: []
+tags: ["Vue", "Github Pages"]
 draft: false
 ---
 

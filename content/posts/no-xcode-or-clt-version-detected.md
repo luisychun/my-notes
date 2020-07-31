@@ -1,7 +1,7 @@
 ---
 title: "macOS Catalina gyp: No Xcode or CLT Version Detected"
 date: 2020-06-14T17:23:22+08:00
-tags: []
+tags: ["Issue"]
 draft: false
 ---
 

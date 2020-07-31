@@ -1,7 +1,7 @@
 ---
 title: "Delete Dual Boots Ubuntu From Windows 10"
 date: 2020-06-18T20:55:25+08:00
-tags: []
+tags: ["Guide"]
 draft: false
 ---
 
