@@ -32,7 +32,7 @@ draft: false
 
 - Download [Docker](https://docs.docker.com/docker-for-mac/install/)
 - Register an ID and go to docker hub search for **Oracle Database Enterprise Edition**
-- Follow the steps below to connect the Oracle database
+- Follow the steps below to connect the Oracle database for the first time
 
 {{< rawhtml >}}
   <p class="show-in-mobile">
@@ -57,4 +57,24 @@ GRANT ALL PRIVILEGES TO dummy;
 
 {{< rawhtml >}}
   <img class="ui fluid image" src="/img/sql_developer.png">
+{{< /rawhtml >}}
+
+### Docker related commands
+- list all the containers
+```shell
+docker ps -a
+```
+
+- run container
+```shell
+docker container [name] start
+```
+
+- remove container
+```shell
+docker container rm [container id]
+```
+
+{{< rawhtml >}}
+  <img class="ui fluid image" src="/img/docker-container.png">
 {{< /rawhtml >}}
