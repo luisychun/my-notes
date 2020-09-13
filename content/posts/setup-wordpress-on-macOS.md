@@ -44,3 +44,12 @@ draft: false
 - check if **.htaccess** is writable (locate in project root directory)
 - manually create if it's not exists yet
 - [reference](https://wordpress.org/support/article/using-permalinks/)
+
+### Other WordPress related issues
+
+#### Setup subdomain in hosting platform
+- create a subdomain and create a directory for its, usually it's under public_html/**subdomain**
+- copy all the files and folders from actual main domain to the directory your created in above step
+- create a database for subdomain, export the actual database and import it to the newly created database for subdomain
+- locate to wp_options table, and change the **siteurl** and **homeurl** field to the subdomain to avoid redirect issue
+- if redirect issue still persists, navigate to **.htaccess** file, and comment out all the redirect setting
